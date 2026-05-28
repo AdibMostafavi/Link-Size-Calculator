@@ -1,13 +1,14 @@
-<div align="center">
-
 # 🔗 Link Size Calculator
 
-<img src="https://img.shields.io/github/stars/Adib138/Link-Size-Calculator?style=for-the-badge" />
-<img src="https://img.shields.io/github/forks/Adib138/Link-Size-Calculator?style=for-the-badge" />
-<img src="https://img.shields.io/github/license/Adib138/Link-Size-Calculator?style=for-the-badge" />
-<img src="https://img.shields.io/github/languages/top/Adib138/Link-Size-Calculator?style=for-the-badge" />
+<div align="center">
 
-### 🚀 Simple tool for calculating URL length quickly and easily
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge\&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge\&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge\&logo=javascript)
+![GitHub stars](https://img.shields.io/github/stars/Adib138/Link-Size-Calculator?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Adib138/Link-Size-Calculator?style=for-the-badge)
+
+### 🚀 Website for calculating file size from direct download links
 
 [English](#english) • [فارسی](#فارسی)
 
@@ -19,23 +20,28 @@
 
 ## 📌 About The Project
 
-**Link Size Calculator** is a lightweight and simple tool that calculates the character length of URLs or links.
+**Link Size Calculator** is a simple web application built with HTML, CSS, and JavaScript that calculates the size of files from direct download links.
 
-This project is useful for:
-- URL length checking
-- Short-link testing
-- Input validation
-- Educational purposes
+The application sends a request to the provided URL and reads the response headers to estimate the file size without downloading the whole file.
 
 ---
 
 ## ✨ Features
 
-✅ Fast and lightweight  
-✅ Easy to use  
-✅ Beginner-friendly  
-✅ Clean project structure  
-✅ Open-source
+✅ Calculate file size from URL
+✅ Fast and lightweight
+✅ Responsive UI
+✅ No frameworks used
+✅ Pure HTML, CSS & JavaScript
+✅ Beginner-friendly project
+
+---
+
+## 🛠 Built With
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
 
 ---
 
@@ -44,15 +50,15 @@ This project is useful for:
 ```bash
 Link-Size-Calculator/
 │
-├── main.py
-├── README.md
-└── assets/
-    └── preview.png
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
 ---
 
-## ⚡ Installation
+## ⚡ Getting Started
 
 Clone the repository:
 
@@ -60,95 +66,88 @@ Clone the repository:
 git clone https://github.com/Adib138/Link-Size-Calculator.git
 ```
 
-Enter the project directory:
+Open project folder:
 
 ```bash
 cd Link-Size-Calculator
+```
+
+Run the project by opening:
+
+```bash
+index.html
 ```
 
 ---
 
 ## ▶️ Usage
 
-Run the project:
-
-```bash
-python main.py
-```
+1. Enter a direct file link
+2. Click calculate button
+3. See file size instantly
 
 Example:
 
 ```text
-Enter URL:
-https://github.com
+https://example.com/file.zip
 ```
 
 Output:
 
 ```text
-Length: 18 characters
+120 MB
 ```
 
 ---
 
 ## 🖼 Preview
 
-> Add screenshot inside `/assets/preview.png`
+Add screenshot inside:
+
+```text
+https://adib138.github.io/Link-Size-Calculator/
+```
+
+Then use:
 
 ```markdown
-![Preview](assets/preview.png)
+https://adib138.github.io/Link-Size-Calculator/
 ```
 
 ---
 
-## 🛠 Built With
+## 🚀 Future Improvements
 
-- Python
-- Git
-- GitHub
-
----
-
-## 🌟 Future Improvements
-
-- GUI version
-- Web version
-- URL validation
-- URL shortening support
-- Clipboard integration
+* Drag & Drop support
+* Dark mode
+* Multiple URL support
+* Download speed estimation
+* Progress animations
+* API version
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the project
-2. Create your feature branch
+Pull requests are welcome ❤️
 
 ```bash
 git checkout -b feature/amazing-feature
 ```
 
-3. Commit your changes
-
 ```bash
-git commit -m 'Add amazing feature'
+git commit -m "Add amazing feature"
 ```
-
-4. Push to the branch
 
 ```bash
 git push origin feature/amazing-feature
 ```
 
-5. Open a Pull Request
-
 ---
 
-## 📄 License
+## ⭐ Support
 
-Distributed under the MIT License.
+If you like this project, give it a star ⭐
 
 ---
 
@@ -161,105 +160,100 @@ https://github.com/Adib138
 
 ---
 
-<br>
-<br>
-
 # فارسی
 
 ## 📌 درباره پروژه
 
-پروژه **Link Size Calculator** یک ابزار ساده و سبک برای محاسبه طول لینک‌ها و URL ها است.
+پروژه **Link Size Calculator** یک وب‌اپلیکیشن ساده ساخته شده با HTML ،CSS و JavaScript است که حجم فایل‌ها را از روی لینک مستقیم دانلود محاسبه می‌کند.
 
-این پروژه برای موارد زیر مناسب است:
-
-- بررسی طول لینک
-- تست لینک کوتاه
-- اعتبارسنجی ورودی
-- آموزش برنامه‌نویسی
+برنامه بدون دانلود کامل فایل، اطلاعات Header پاسخ سرور را بررسی کرده و حجم فایل را نمایش می‌دهد.
 
 ---
 
 ## ✨ ویژگی‌ها
 
-✅ سریع و سبک  
-✅ استفاده آسان  
-✅ مناسب افراد مبتدی  
-✅ ساختار تمیز پروژه  
-✅ متن‌باز
+✅ محاسبه حجم فایل از روی لینک
+✅ سریع و سبک
+✅ رابط کاربری ریسپانسیو
+✅ بدون فریم‌ورک
+✅ ساخته شده با HTML/CSS/JS
+✅ مناسب برای یادگیری
 
 ---
 
-## ⚡ نصب پروژه
+## 🛠 تکنولوژی‌ها
 
-ابتدا ریپو را کلون کنید:
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## ⚡ اجرا
+
+ابتدا پروژه را کلون کنید:
 
 ```bash
 git clone https://github.com/Adib138/Link-Size-Calculator.git
 ```
 
-ورود به پوشه پروژه:
+ورود به پوشه:
 
 ```bash
 cd Link-Size-Calculator
 ```
 
----
-
-## ▶️ اجرا
+سپس فایل زیر را اجرا کنید:
 
 ```bash
-python main.py
+index.html
 ```
 
-نمونه ورودی:
+---
+
+## ▶️ نحوه استفاده
+
+1. لینک مستقیم فایل را وارد کنید
+2. روی دکمه محاسبه کلیک کنید
+3. حجم فایل نمایش داده می‌شود
+
+نمونه:
 
 ```text
-https://github.com
+https://example.com/file.zip
 ```
 
-نمونه خروجی:
+خروجی:
 
 ```text
-Length: 18 characters
+120 MB
 ```
 
 ---
 
 ## 🖼 پیش‌نمایش
 
-اسکرین‌شات پروژه را داخل پوشه زیر قرار دهید:
+اسکرین‌شات را در مسیر زیر قرار دهید:
 
 ```text
 /assets/preview.png
-```
-
-و سپس این کد را استفاده کنید:
-
-```markdown
-![Preview](assets/preview.png)
 ```
 
 ---
 
 ## 🚀 توسعه‌های آینده
 
-- نسخه گرافیکی
-- نسخه وب
-- اعتبارسنجی URL
-- کوتاه‌کننده لینک
-- کپی خودکار
+* حالت تاریک
+* پشتیبانی از چند لینک
+* انیمیشن
+* نسخه API
+* تخمین سرعت دانلود
 
 ---
 
 ## 🤝 مشارکت
 
 Pull Request ها پذیرفته می‌شوند ❤️
-
----
-
-## ⭐ حمایت
-
-اگر پروژه را دوست داشتید، ریپو را Star کنید ⭐
 
 ---
 
