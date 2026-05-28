@@ -101,14 +101,7 @@ Output:
 ---
 
 ## 🖼 Preview
-
-Add screenshot inside:
-
-```text
-https://adib138.github.io/Link-Size-Calculator/
-```
-
-Then use:
+ use:
 
 ```markdown
 https://adib138.github.io/Link-Size-Calculator/
@@ -232,10 +225,10 @@ https://example.com/file.zip
 
 ## 🖼 پیش‌نمایش
 
-اسکرین‌شات را در مسیر زیر قرار دهید:
+پیش نمایش:
 
 ```text
-/assets/preview.png
+https://adib138.github.io/Link-Size-Calculator/
 ```
 
 ---
