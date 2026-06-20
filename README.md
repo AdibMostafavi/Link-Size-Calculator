@@ -63,7 +63,7 @@ Link-Size-Calculator/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Adib138/Link-Size-Calculator.git
+git clone https://github.com/AdibMostafavi/Link-Size-Calculator.git
 ```
 
 Open project folder:
@@ -104,7 +104,7 @@ Output:
  use:
 
 ```markdown
-https://adib138.github.io/Link-Size-Calculator/
+https://AdibMostafavi.github.io/Link-Size-Calculator/
 ```
 
 ---
@@ -186,7 +186,7 @@ https://github.com/Adib138
 ابتدا پروژه را کلون کنید:
 
 ```bash
-git clone https://github.com/Adib138/Link-Size-Calculator.git
+git clone https://github.com/AdibMostafavi/Link-Size-Calculator.git
 ```
 
 ورود به پوشه:
@@ -228,7 +228,7 @@ https://example.com/file.zip
 پیش نمایش:
 
 ```text
-https://adib138.github.io/Link-Size-Calculator/
+https://AdibMostafavi.github.io/Link-Size-Calculator/
 ```
 
 ---
